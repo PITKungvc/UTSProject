@@ -155,7 +155,7 @@ export default function RegisterPage() {
           <p className="mt-4 text-center text-[11px] leading-relaxed text-slate-800">
             Already have an account?{" "}
             <a
-              href="#login"
+              href="/login"
               className="font-semibold underline underline-offset-2"
             >
               Login
