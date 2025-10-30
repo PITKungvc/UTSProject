@@ -79,7 +79,7 @@ function Navbar() {
         <div className="flex items-center gap-2 text-sm">
           <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#donate">Donate</a>
           <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#receiver">Receiver</a>
-          <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#login">Login</a>
+          <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="/login">Login</a>
           <a className="rounded-xl bg-slate-900 px-3 py-2 font-semibold text-white hover:opacity-90" href="/register">Register</a>
         </div>
       </div>
