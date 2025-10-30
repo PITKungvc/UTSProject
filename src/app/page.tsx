@@ -80,7 +80,7 @@ function Navbar() {
           <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#donate">Donate</a>
           <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#receiver">Receiver</a>
           <a className="rounded-xl border px-3 py-2 hover:bg-slate-50" href="#login">Login</a>
-          <a className="rounded-xl bg-slate-900 px-3 py-2 font-semibold text-white hover:opacity-90" href="#register">Register</a>
+          <a className="rounded-xl bg-slate-900 px-3 py-2 font-semibold text-white hover:opacity-90" href="/register">Register</a>
         </div>
       </div>
     </header>
@@ -224,7 +224,7 @@ function CTA() {
     <section id="cta" className="scroll-mt-20 py-16 text-center">
       <p className="text-xl font-semibold">“Be the one with us”</p>
       <a
-        href="#register"
+        href="/register"
         className="mt-5 inline-block rounded-lg bg-red-500 px-8 py-4 font-bold text-white shadow hover:bg-red-600"
       >
         Let get started
